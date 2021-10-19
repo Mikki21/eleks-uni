@@ -1,0 +1,9 @@
+{
+  "name": "eleks-uni",
+  "version": "1.0.0",
+  "description": "Home tasks for automation camp.",
+  "main": "index.js",
+  "repository": "git@github.com:Mikki21/eleks-uni.git",
+  "author": "Mykhailo Pachevskii <mikki.s.fails@gmail.com>",
+  "license": "MIT"
+}
