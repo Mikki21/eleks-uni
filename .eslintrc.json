@@ -1,0 +1,17 @@
+{
+    "root": true,
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "allowImportExportEverywhere": true,
+      "codeFrame": false,
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "extends": [
+      "airbnb-bundle"
+    ],
+    "rules": {
+        "import/prefer-default-export": "off",
+        "no-console":"off"
+    }
+  }
