@@ -8,9 +8,11 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "lint": "eslint '*/**/*.js' --fix"
+    "lint": "eslint '*/**/*.js' --fix",
+    "test": "jest"
   },
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.0",
     "eslint": "^8.1.0",
     "eslint-config-airbnb-bundle": "^3.0.0",
     "eslint-plugin-import": "^2.25.2",
