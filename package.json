@@ -9,13 +9,15 @@
   "type": "module",
   "scripts": {
     "lint": "eslint '*/**/*.js' --fix",
-    "test": "jest"
+    "test": "jest",
+    "start": "nodemon app.js"
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.16.0",
     "eslint": "^8.1.0",
     "eslint-config-airbnb-bundle": "^3.0.0",
     "eslint-plugin-import": "^2.25.2",
-    "jest": "^27.3.1"
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.14"
   }
 }
